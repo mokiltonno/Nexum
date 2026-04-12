@@ -4,17 +4,17 @@ export default function Mission() {
   const values = [
     {
       title: 'Integrità',
-      description: 'Operiamo con trasparenza per la sostenibilità ambientale ed economica dei partner.',
+      description: 'Operiamo con trasparenza per la sostenibilità ambientale ed economica dei partner',
       delay: 0
     },
     {
       title: 'Connessione',
-      description: 'Uniamo le comunità creando valore condiviso tra pubblico e privato.',
+      description: 'Uniamo le comunità creando valore condiviso tra pubblico e privato',
       delay: 0.1
     },
     {
       title: 'Innovazione',
-      description: 'Traduciamo tecnologie complesse in soluzioni concrete ed eleganti.',
+      description: 'Traduciamo tecnologie complesse in soluzioni concrete ed eleganti',
       delay: 0.2
     }
   ];
