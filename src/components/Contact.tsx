@@ -14,7 +14,7 @@ export default function Contact() {
         >
           <div className="relative z-10 flex flex-col lg:flex-row gap-16 items-center">
             <div className="lg:w-1/2 text-white">
-              <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-balance">Iniziamo a collaborare</h2>
+              <h2 className="text-4xl md:text-5xl font-extrabold mb-8 text-balance">Richiedi la tua consulenza</h2>
               <div className="space-y-8">
                 <div className="flex items-center group">
                   <div className="bg-white/10 p-4 rounded-2xl mr-6 group-hover:bg-nexum-green transition-all">
