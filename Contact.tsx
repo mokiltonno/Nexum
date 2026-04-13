@@ -1,5 +1,5 @@
 import { User, Phone, Mail } from 'lucide-react';
-import { motion } from 'framer-motion'; // 
+import { motion } from 'framer-motion'; 
 
 export default function Contact() {
   return (
@@ -47,17 +47,12 @@ export default function Contact() {
             </div>
 
             <div className="lg:w-1/2 w-full bg-white p-10 rounded-[2rem]">
-              {/* Form configurato per Netlify Forms */}
+              {/* Form collegato a Formspree */}
               <form 
-                name="contatti" 
-                method="POST" 
-                data-netlify="true" 
-                action="/"
+                action="https://formspree.io/f/mbdqjojq" 
+                method="POST"
                 className="space-y-6"
               >
-                {/* Campo nascosto fondamentale per React/Vite */}
-                <input type="hidden" name="form-name" value="contatti" />
-                
                 <input 
                   type="text" 
                   name="nome"
